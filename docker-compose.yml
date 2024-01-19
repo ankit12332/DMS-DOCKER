@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  backend:
+    build: /DMS-NodeJs-Express-Mongodb
+    ports:
+      - "3001:3000"
+  
+  frontend:
+    build: /DMS-React-NextJs
+    ports:
+      - "3000:3000"
