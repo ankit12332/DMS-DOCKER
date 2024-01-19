@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 3000
 
-CMD [ "npm", "src/app.js" ]
+CMD [ "node", "src/app.js" ]
